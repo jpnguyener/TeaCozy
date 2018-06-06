@@ -40,4 +40,24 @@ nav span {
   padding-right: 30px;
 }
 
-/* 
+/* Main Container */
+
+.content {
+  display: flex;
+  padding-top: 70px;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.mission-image-content {
+  margin-top: 300px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
