@@ -97,3 +97,28 @@ nav span {
 .tea h4 {
   text-align: center;
 }
+
+/* Location Section */
+
+.information {
+    height: 500px;
+    width: 1200px;
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.locations {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    background-color: black;
+    opacity: 1;
+    flex-basis: 300px;
+    margin: 0 20px;
+}
