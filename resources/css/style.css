@@ -84,7 +84,7 @@ nav span {
 .tea-options {
   max-width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
