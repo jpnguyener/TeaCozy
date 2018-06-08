@@ -1,6 +1,7 @@
 /* Universal styles */
 
 body {
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -17,10 +18,10 @@ a {
 
 header {
   display: flex;
-  align-items: center;
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid seashell;
+  background-color: black;
   height: 69px;
   width: 100%;
 }
@@ -44,11 +45,16 @@ nav span {
 
 .content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 70px;
+  border: 4px solid purple;
 }
 
-.mission {
+/* Mission Section */
 
+.mission {
+  border: 2px solid blue;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -56,8 +62,38 @@ nav span {
 }
 
 .mission-image-content {
+  border: 2px solid green;
   margin-top: 300px;
   display: block;
   text-align: center;
   background-color: black;
+}
+
+/* Tea of the Month Section */
+
+.tea-of-the-month {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tea-of-the-month h2, .tea-of-the-month h4 {
+  padding: 0;
+  text-align: center;
+}
+
+.tea-options {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  margin: 0;
+}
+
+.tea h4 {
+  text-align: center;
 }
