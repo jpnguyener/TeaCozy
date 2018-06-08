@@ -48,13 +48,11 @@ nav span {
   flex-direction: column;
   justify-content: center;
   padding-top: 70px;
-  border: 4px solid purple;
 }
 
 /* Mission Section */
 
 .mission {
-  border: 2px solid blue;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
@@ -62,7 +60,6 @@ nav span {
 }
 
 .mission-image-content {
-  border: 2px solid green;
   margin-top: 300px;
   display: block;
   text-align: center;
@@ -121,4 +118,16 @@ nav span {
     opacity: 1;
     flex-basis: 300px;
     margin: 0 20px;
+}
+
+/* Contact/Footer Section */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
